@@ -1,0 +1,11 @@
+.news-icon {
+  width: 13px;
+}
+
+.burse div {
+  display: inline;
+  margin-left: 10px;
+}
+.burse div:first-child {
+  margin: 0;
+}
