@@ -1,5 +1,67 @@
 .news-icon {
   width: 13px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: absolute;
+  left: -15px;
+  bottom: 10px;
+}
+
+.news-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item {
+  position: relative;
+}
+
+.search-section {
+  margin-bottom: 30px;
+}
+
+.search-section img {
+      width: 120px;
+      position: absolute;
+      left: -140px;
+      bottom: 0;
+}
+
+.search-section input {
+  width: 75%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.search span {
+  color: #b9b9b9;
+}
+
+.search-subtitle {
+  position: absolute;
+}
+
+.nav {
+  margin-bottom: 10px;
+}
+
+.search-section button {
+  width: 100px;
+  height: 30px;
+}
+
+.search {
+  position: relative;
+}
+
+.artictle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artictle img {
+  width: 100px;
 }
 
 .burse div {
@@ -8,4 +70,41 @@
 }
 .burse div:first-child {
   margin: 0;
+}
+
+.categories {
+  margin-bottom: 10px;
+}
+
+.category {
+  font-weight: 600;
+  margin-right: 7px;
+  color: #6ca3e3;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.news {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.burse-item {
+  font-weight: bold;
+}
+
+.nav-item {
+  font-weight: 600;
+  margin-right: 15px;
+  color: #4e8acf;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  font-size: 85px;
+  text-align: center;
 }

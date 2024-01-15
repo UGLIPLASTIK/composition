@@ -19,14 +19,14 @@ const News = ({ newsList, burseList }: { newsList: NewsProps[], burseList: Burse
         <span className="category">Категория 3</span>
       </div>
       <div className="news-prew">
-        {newsList.map(news => <div>
+        {newsList.map(news => <div className="news-item" key={index}>
             <img className="news-icon" src={news.icon} alt="***" />
             <a key={index} className="news" href={news.link}>{news.prew}</a>
           </div>)}
       </div>
       <div className="burse">
-        {burseList.map(item => <div>
-          <span>{item.item} {item.price} {item.changes}</span>
+        {burseList.map(item => <div key={index}>
+          <span><span className="burse-item">{item.item}</span> {item.price} {item.changes}</span>
         </div>)}
       </div>
     </div>
