@@ -13,7 +13,7 @@ interface PropsChildren {
   style: SectionType,
 }
 
-const Section = ({style, children }: PropsWithChildren<PropsChildren>) => {
+const Section = ({ style, children }: PropsWithChildren<PropsChildren>) => {
   return (
     <section className={styleByType[style]}>
       {children}
@@ -22,3 +22,5 @@ const Section = ({style, children }: PropsWithChildren<PropsChildren>) => {
 }
 
 export default Section;
+
+// Обертка секций, отвечает за расположение детей

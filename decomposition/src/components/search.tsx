@@ -10,3 +10,5 @@ const Search = () => {
 }
 
 export default Search;
+
+// поисковая строка и кнопка

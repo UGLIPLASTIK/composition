@@ -14,3 +14,5 @@ const Navigation = () => {
 }
 
 export default Navigation;
+
+// Навигация над поисковой строкой

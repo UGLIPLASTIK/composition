@@ -34,3 +34,5 @@ const News = ({ newsList, burseList }: { newsList: NewsProps[], burseList: Burse
 }
 
 export default News;
+
+// Основной контент секции новостей, отображает категории, статьи, и доп. информацию

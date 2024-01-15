@@ -17,3 +17,5 @@ const Article = ({ article }: ArticleProps) => (<div className="artictle">
   </div>)
 
 export default Article;
+
+// Элемент справа секции News, то ли сервис, то ли статья

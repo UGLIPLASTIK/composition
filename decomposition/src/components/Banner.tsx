@@ -3,3 +3,5 @@ const Banner = () => {
 }
 
 export default Banner;
+
+// Рекламный баннер между секций

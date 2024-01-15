@@ -28,7 +28,7 @@
 }
 
 .search-section input {
-  width: 75%;
+  width: 100%;
   box-sizing: border-box;
   height: 30px;
 }
@@ -39,6 +39,7 @@
 
 .search-subtitle {
   position: absolute;
+  bottom: -20px;
 }
 
 .nav {
@@ -51,6 +52,7 @@
 }
 
 .search {
+  display: flex;
   position: relative;
 }
 
@@ -107,4 +109,28 @@
   color: white;
   font-size: 85px;
   text-align: center;
+  margin-bottom: 30px;
 }
+
+.info-section {
+  display: grid;
+}
+
+.widgetes {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  justify-items: start;
+}
+
+.widget {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  background-color: #8d8989;
+  font-size: 30px;
+  color: #000;
+}
+

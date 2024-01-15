@@ -5,6 +5,7 @@ import Article from './components/Article'
 import Navigation from './components/Navigation'
 import Search from './components/search'
 import Banner from './components/Banner'
+import AllWidget from './components/Widget'
 
 const newsList = [
   {icon:'https://cdn.icon-icons.com/icons2/510/PNG/512/at_icon-icons.com_50456.png', prew: 'News1', link: '#'},
@@ -39,8 +40,9 @@ function App() {
         <Navigation/>
         <Search/>
       </Section>
+      <Banner/>
       <Section style='info'>
-        <Banner/>
+        <AllWidget count={8}/>
       </Section>
     </>
   )
